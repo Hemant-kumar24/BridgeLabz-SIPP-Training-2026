@@ -1,1 +1,0 @@
-This is BridgeLabz Training Program.
