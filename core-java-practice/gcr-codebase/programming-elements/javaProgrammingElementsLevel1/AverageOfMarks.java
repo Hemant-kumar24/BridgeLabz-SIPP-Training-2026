@@ -1,0 +1,12 @@
+package javaProgrammingElementsLevel1;
+import java.util.*;
+public class AverageOfMarks {
+    public static void main(String[] args) {
+    int maths=94;
+    int physics=95;
+    int chemistry=96;
+    double AverageOfMarks=(maths+physics+chemistry)/3;
+    System.out.println("Sam’s average mark in PCM is "+AverageOfMarks);
+    }
+
+}
