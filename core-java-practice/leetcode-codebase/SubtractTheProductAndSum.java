@@ -1,6 +1,7 @@
+import java.util.Scanner;
 
 public class SubtractTheProductAndSum {
-     public int subtractProductAndSum(int n) {
+     public static int subtractProductAndSum(int n) {
         int sum=0;
         int prod=1;
         while(n!=0){
@@ -12,6 +13,13 @@ public class SubtractTheProductAndSum {
 
         }
         return prod-sum;
+
+    }
+     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int difference = subtractProductAndSum(num);
+        System.out.print("The difference of product and sum is "+difference);
 
     }
 }

@@ -1,7 +1,7 @@
 import java.util.*;
 public class RomanToInteger {
     
-    public int romanToInt(String s) {
+    public static int romanToInt(String s) {
         HashMap<Character,Integer> map=new HashMap<Character,Integer>();
         map.put('I',1);
         map.put('V',5);
@@ -20,5 +20,14 @@ public class RomanToInteger {
             }
         }
         return result;
+    }
+     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        int ans = romanToInt(str);
+        System.out.println(ans);
+
+        
+
     }
 }

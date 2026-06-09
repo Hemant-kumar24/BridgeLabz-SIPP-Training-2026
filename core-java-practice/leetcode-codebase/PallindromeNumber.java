@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class PallindromeNumber {
-    public boolean isPalindrome(int x) {
+    public static boolean isPalindrome(int x) {
         int sum=0;
         if(x<0){
             return false;
@@ -18,6 +20,18 @@ public class PallindromeNumber {
             return false;
         }
     
+    }
+     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        boolean check = isPalindrome(num);
+        if(check){
+            System.out.println("Palindrome");
+        }
+        else{
+            System.out.println("Not Palindrome");
+        }
+
     }
 
 }
