@@ -20,7 +20,7 @@ public class CircularLinkedList {
         Node temp = head;
         do {
             System.out.print(temp.data + " ");
-            temp = temp.next;
+            temp = temp.next; 
         } while (temp != head);
     }
 }
