@@ -1,2 +1,0 @@
-Hello, Java I/O!
-Welcome to FileWriter.
